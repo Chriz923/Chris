@@ -29,3 +29,12 @@ font-family: fantasy;
     height: 150px;
     background:url("https://image.shutterstock.com/image-photo/green-stretch-led-lights-600w-122249020.jpg");
 }
+a:link{
+    color: darkgreen;
+background-color: transparent;
+    text-decoration: none;
+
+}
+#contact{
+    font-weight: bolder;
+}
