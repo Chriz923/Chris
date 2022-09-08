@@ -1,6 +1,10 @@
 body{
     background-color: ghostwhite;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 p {
     max-width: 600px
 }
@@ -21,7 +25,7 @@ h1{
 h3{
     font-size: 24px;
 }
-.mail-phone{
+#mail-phone{
 font-family: fantasy;
 }
 #header-background{
@@ -40,4 +44,8 @@ background-color: transparent;
 }
 #tab-icon{
     color: darkgreen;
+}
+
+#Contact_info {
+    margin: 20px;
 }
