@@ -49,3 +49,6 @@ background-color: transparent;
 #Contact_info {
     margin: 20px;
 }
+hr{
+    border-width: thick;
+}
