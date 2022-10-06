@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prime-ulator</title>
+    <link rel="icon" href="https://image.shutterstock.com/image-vector/calculation-calculator-mathematics-icon-vector-260nw-288672272.jpg">
+  <script src="calculator.js"></script>
+  <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+<h1>prime-ulator</h1>
+<table class="prime-ulator">
+  <tr>
+    <td colspan="5"> <input class="prime-ulator" type="text" id="outCome" disabled/></td>
+    <td><input type="button" value="C" onclick="clearScreen()" id="equal" /></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="2" onclick="display('2')"/></td>
+    <td><input type="button" value="3" onclick="display('3')"/></td>
+    <td><input type="button" value="5" onclick="display('5')"/></td>
+    <td><input type="button" value="7" onclick="display('7')"/></td>
+    <td><input type="button" value="11" onclick="display('11')"/></td>
+    <td><input type="button" value="/" onclick="display('/')"/></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="13" onclick="display('13')"/></td>
+    <td><input type="button" value="17" onclick="display('17')"/></td>
+    <td><input type="button" value="19" onclick="display('19')"/></td>
+    <td><input type="button" value="23" onclick="display('23')"/></td>
+    <td><input type="button" value="29" onclick="display('29')"/></td>
+    <td><input type="button" value="-" onclick="display('-')"/></td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="31" onclick="display('31')"/></td>
+    <td> <input type="button" value="37" onclick="display('37')"/></td>
+    <td> <input type="button" value="41" onclick="display('41')"/></td>
+    <td> <input type="button" value="43" onclick="display('43')"/></td>
+    <td> <input type="button" value="47" onclick="display('47')"/></td>
+    <td> <input type="button" value="+" onclick="display('+')"/></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="53" onclick="display('53')"></td>
+    <td><input type="button" value="59" onclick="display('59')"></td>
+    <td><input type="button" value="61" onclick="display('61')"></td>
+    <td><input type="button" value="67" onclick="display('67')"></td>
+    <td><input type="button" value="71" onclick="display('71')"></td>
+    <td><input type="button" value="*" onclick="display('*')"/></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="73" onclick="display('73')"></td>
+    <td><input type="button" value="79" onclick="display('79')"></td>
+    <td><input type="button" value="83" onclick="display('83')"></td>
+    <td><input type="button" value="89" onclick="display('89')"></td>
+    <td><input type="button" value="97" onclick="display('97')"></td>
+    <td><input type="button" value="." onclick="display('.')"/></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="=" onclick="calculate()" id="equal"/></td>
+  </tr>
+</table>
+<footer id = "Prime"> What is a prime-number? <ul>
+  <li>A prime number is a whole number greater than 1 whose only factor are 1 and itself.</li>
+  <li>A factor is a whole number that can be divided evenly into another number.</li>
+</ul>
+  </footer>
+</body>
+</html>

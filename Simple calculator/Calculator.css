@@ -1,0 +1,49 @@
+
+body {
+    background: linear-gradient(#4ed751, transparent),
+    linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+h1 {
+    font-family: "Arial Black";
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+
+
+.prime-ulator {
+    font-family: 'Candara', sans-serif;
+    background-color: #6ea4bb;
+    border: groove #643434 1.5px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 175px;
+    margin-top: 50px;
+    width: 70%;
+    height: 90%;
+}
+#equal {
+    background-color: #03605a;
+}
+input[type=button] {
+    font-family: 'Candara', sans-serif;
+    background-color: #3c7a2c;
+    color: black;
+    border: groove black 1.5px;
+    width: 100%;
+    border-radius: 4px;
+    height: 100%;
+    outline: #454a6c;
+}
+
+footer {
+    font-weight: 1200;
+    font-style: inherit;
+}
