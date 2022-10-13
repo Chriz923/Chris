@@ -1,5 +1,5 @@
 
-body {
+body{
     background: linear-gradient(#4ed751, transparent),
     linear-gradient(to top right, blue, transparent);
     background-blend-mode: screen;
